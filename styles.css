@@ -1,0 +1,128 @@
+* {
+    margin:0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Noto Sans Warang Citi', sans-serif;
+}
+
+body {
+    background-color: #333333;
+    margin: 0;                 
+    font-family: Arial, sans-serif;
+    color: white;              
+}
+
+header, #menu-horizontal {
+    background-color: #000000;
+}
+
+#menu-horizontal ul{
+    list-style: none;
+    padding: 0;
+    background-color: #000000;
+}
+
+#menu-horizontal ul li {
+    display:inline;
+}
+
+#menu-horizontal ul li a {
+    color: #fff;
+    padding: 20px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+#menu-horizontal ul li a:hover {
+    background-color: #ff0000;
+    padding: 20px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+#menu-horizontal ul li:last-child a {
+    float: right;
+    background-color: #ff0000;
+}
+
+#banner-imagem {
+    width: 100%;         
+    height: 250px;       
+    overflow: hidden; 
+    background-position: center;
+    background-repeat: no-repeat;
+    border-bottom: 2px solid #000000;
+}
+
+#título{
+    margin-top: 65px;
+    font-size: 80px;
+    font-family: "Nosifer", sans-serif;
+    text-align: center;
+    line-height: 1.1;
+    text-shadow: 10px 10px 10px #000000;
+}
+
+.carrossel {
+    margin-top: 65px;
+    display: inline-flex;
+}
+
+.carrossel {
+    margin-top: 65px; 
+    width: 100%; 
+    overflow-x: auto; 
+    white-space: nowrap;
+    display: flex; 
+    justify-content: center;    
+}
+
+.carrossel-inner {
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+
+.carrossel iframe {
+    width: 500px; 
+    height: 300px; 
+    margin-right: 0px; 
+}
+
+#conteúdo{
+    text-align: justify;
+    font-size: large;
+    font-family: "Yatra One", system-ui;
+    line-height: 1.8;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 20px;
+    box-shadow: 8px 5px 15px 10px #000000;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: black;          
+    display: flex;           
+    justify-content: space-between;  
+    align-items: center;      
+}
+
+
+footer h2 {
+    font-size: large;
+    color: white;              
+    text-align: center;        
+    padding: 20px 0;           
+}
+
+footer:hover {
+    background-color: #ff0000;
+}
+
+footer h2 :hover {
+    background-color: #ff0000;    
+    color: white;              
+}
