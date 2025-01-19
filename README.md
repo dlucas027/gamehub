@@ -105,11 +105,17 @@ Se você tiver alguma dúvida ou sugestão, entre em contato através dos seguin
 1. **Menu interativo**
    ![Seção Inicial](![image](https://github.com/user-attachments/assets/7a41e26f-43c5-4703-a810-33de50546405)
 
-2. **Visão geral inicial**
+   
+
+3. **Visão geral inicial**
    ![Sobre o Canal](![image](https://github.com/user-attachments/assets/6d11c240-e537-4b86-9bdc-8bd87cdd889b)
 
-3. **Carrocel de vídeos**
+   
+
+5. **Carrocel de vídeos**
    ![Formulário de Inscrição](![image](https://github.com/user-attachments/assets/6dc235ea-c09e-443c-94c8-1e8d5ac0447c)
+
+   
 
 4.**Botão de email responsivo**
   ![Botão de email].(![image](https://github.com/user-attachments/assets/ba36cc63-3e9d-4569-92a4-3abac8a558d4)
