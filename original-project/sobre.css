@@ -1,0 +1,39 @@
+body {
+    background: #f4e1d2;
+    background-image: url('https://www.transparenttextures.com/patterns/paper-1.png');
+    color: black;
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+    text-align: center;
+    font-size: 60px;
+    font-family: "Miniver", cursive;
+}
+
+p{
+    text-align: justify;
+    font-size: large;
+    font-family: "Yatra One", system-ui;
+    line-height: 1.8;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 20px;
+    font-style: bold;
+}
+
+#citação{
+    text-align: justify;
+    font-size: large;
+    font-family: "Yatra One", system-ui;
+    line-height: 1.8;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 20px;
+    font-style: italic;
+}

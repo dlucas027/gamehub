@@ -1,0 +1,140 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #ff007f, #5701c2);
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header, #menu {
+    background-color: #000000;
+}
+
+#menu ul{
+    list-style: none;
+    padding: 0;
+    background-color: #000000;
+}
+
+#menu ul li {
+    display:inline;
+}
+
+#menu ul li a {
+    color: #fff;
+    padding: 20px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+#menu ul li a:hover {
+    background-color: #ff0000;
+    padding: 20px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+#menu ul li:last-child a {
+    float: right;
+    background-color: #ff0000;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    /* Usando flexbox para centralizar o conteúdo da página vertical e horizontalmente, ocupando toda a altura da tela */
+}
+
+h1 {
+    font-size: 3em;
+    margin: 0;
+    padding: 0;
+    /* Estiliza o título principal, aumentando o tamanho da fonte e removendo margens e preenchimentos */
+}
+
+.counter {
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Cria uma caixa de contagem com fundo semi-transparente, com texto em negrito e um padding para dar espaço */
+
+    border-radius: 10px;
+    /* Faz as bordas da caixa ficarem arredondadas */
+}
+
+.description {
+    font-size: 1.2em;
+    margin-top: 20px;
+    max-width: 500px;
+    /* Estiliza a descrição do canal, aumentando o tamanho da fonte e limitando a largura */
+}
+
+.cta {
+    margin-top: 30px;
+    padding: 15px 30px;
+    background-color: #ffcc00;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    /* Estiliza o botão de chamada para ação (CTA) com cor de fundo amarela, bordas arredondadas e um efeito de transição para mudança de cor */
+}
+
+.cta:hover {
+    background-color: #ff9900;
+    /* Modifica a cor do botão quando o usuário passa o mouse sobre ele (efeito hover) */
+}
+
+.carousel-container {
+    width: 293.5px; /* Definindo a largura do container */
+    height: 293.5px; /* Definindo a altura do container */
+    overflow: hidden;
+    position: relative;
+    margin: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.carousel {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: 400%;
+    height: 100%;
+}
+
+.carousel img {
+    width: 293.5px; /* Definindo largura exata */
+    height: 293.5px; /* Definindo altura exata */
+    object-fit: cover; /* Garante que a imagem preencha o espaço sem distorcer */
+}
+
+
+.dots {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.dot {
+    height: 10px;
+    width: 10px;
+    margin: 0 5px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.3s;
+}
+.dots {
+    display: none; /* Oculta os indicadores do carrossel */
+}
+
+
+.active {
+    background-color: #333;
+}
