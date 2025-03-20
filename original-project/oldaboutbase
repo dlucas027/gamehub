@@ -1,0 +1,25 @@
+<!--
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="about.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&family=Miniver&family=Nosifer&family=Noto+Sans+Warang+Citi&family=Yatra+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>Who am I?</h1>
+    <p>My name is Matheus de Lucas, better known on YouTube by my nickname D'Lucas, which comes from my last name.
+        I'm 24 years old, a student of Systems Analysis and Development, and a YouTuber as a hobby.
+        I've been creating content since 2019, although, due to various issues, this is my second gaming channel.
+        
+        While other YouTubers have huge numbers, I consider myself a winner. For a long time, I believed what I do today was impossible, but when I decided to try, I made two channels work, with a lot of discipline and perseverance.
+        Just like one day I thought it was impossible to have an audience as a YouTuber, recently I also thought it was impossible to create a website, even one as simple as this... But look at the result, here I am, once again overcoming my limitations.
+        
+        The purpose of creating this page is to practice my front-end knowledge, even if using only markup and styling languages.
+        I am proud of creating my first project as a developer. I hope you like it!
+</p>
+-->

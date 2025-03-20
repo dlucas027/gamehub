@@ -1,3 +1,4 @@
+/* 
 body {
     background: #f4e1d2;
     background-image: url('https://www.transparenttextures.com/patterns/paper-1.png');
@@ -5,13 +6,17 @@ body {
     padding: 0;
     margin: 0;
 }
+*/
 
+/* 
 h1{
     text-align: center;
     font-size: 60px;
     font-family: "Miniver", cursive;
 }
+*/
 
+/* 
 p{
     text-align: justify;
     font-size: large;
@@ -24,7 +29,9 @@ p{
     padding: 20px;
     font-style: bold;
 }
+*/
 
+/* 
 #citação{
     text-align: justify;
     font-size: large;
@@ -37,3 +44,4 @@ p{
     padding: 20px;
     font-style: italic;
 }
+*/
