@@ -1,4 +1,3 @@
-// Verificação do número de inscritos via API
 async function fetchSubscriberCount() {
     const channelId = 'UCfTXtop2YQ3yF6UJmlxP-RQ';  // Channel ID
     const apiKey = 'AIzaSyCwib6x3P0MHvQPt7MkVRUOpE3e-W3lAgw'; // Key da API
@@ -44,7 +43,21 @@ function startCounting(target) {
     updateCounter();
 }
 
-// Chama a função de verificação de inscritos ao carregar a página
-window.onload = fetchSubscriberCount;
+var h1 = document.querySelector("h1");
+var text = "Welcome Dlucas YT"; // Texto a ser animado
+var index = 0;
 
+// Função para animar o texto
+function typeText() {
+    if (index < text.length) {
+        h1.innerHTML += text.charAt(index);  // Adiciona um caractere por vez
+        index++;
+        setTimeout(typeText, 100);  // Chama a função novamente após 100ms
+    }
+}
 
+// Chama ambas as funções ao carregar a página
+window.onload = function() {
+    fetchSubscriberCount(); // Chama o contador de inscritos
+    typeText();             // Chama a animação do título
+};

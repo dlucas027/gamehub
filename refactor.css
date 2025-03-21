@@ -70,13 +70,12 @@ h1 {
 }
 
 
-
 .image-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr); /* Cria 4 colunas */
     gap: 10px;
     padding: 20px;
-    width: 100%;
+    width: 40%;
     height: 100%;
     box-sizing: border-box;
 }
@@ -84,9 +83,9 @@ h1 {
 .image-item {
     position: relative;
     overflow: hidden;
-    width: 100%;
+    width: 100%; /* Aqui você pode ajustar a largura do contêiner da imagem */
     height: 0;
-    padding-top: 133.33%; /* Proporção 3:4 (altura / largura = 4 / 3) */
+    padding-top: 150%; /* Proporção 2:3 (altura / largura = 3 / 2) - Aqui está a proporção que você quer manter */
     transition: transform 0.3s ease-in-out;
 }
 
@@ -101,10 +100,14 @@ h1 {
     transition: transform 0.3s ease-in-out;
 }
 
+/* Aqui é onde você pode ajustar a expansão da imagem ao passar o mouse */
 .image-item:hover {
-    transform: scale(1.1); /* Expande a imagem */
+    transform: scale(1.1); /* Aumenta 10% o tamanho da imagem ao passar o mouse - Você pode aumentar o valor para expandir mais */
 }
 
 .image-item:hover img {
-    transform: scale(1.1); /* Expande a imagem dentro do container */
+    transform: scale(1.1); /* A imagem também aumenta ao passar o mouse - Aumente o valor de 'scale' para aumentar mais */
 }
+
+/* Se você quiser reduzir o tamanho das imagens no contêiner, pode ajustar o 'width' ou 'scale' do contêiner */
+
