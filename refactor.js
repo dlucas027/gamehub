@@ -1,7 +1,7 @@
 // Verificação do número de inscritos via API
 async function fetchSubscriberCount() {
     const channelId = 'UCfTXtop2YQ3yF6UJmlxP-RQ';  // Channel ID
-    const apiKey = 'AIzaSyCwib6x3P0MHvQPt7MkVRUOpE3e-W3lAgw'; //Key da API
+    const apiKey = 'AIzaSyCwib6x3P0MHvQPt7MkVRUOpE3e-W3lAgw'; // Key da API
     const url = `https://www.googleapis.com/youtube/v3/channels?part=statistics&id=${channelId}&key=${apiKey}`;
 
     try {
@@ -12,8 +12,8 @@ async function fetchSubscriberCount() {
         console.log(data);  // Exibe a resposta da API no console
 
         if (data.items && data.items.length > 0) {
-            const subscriberCount = data.items[0].statistics.subscriberCount;
-            document.getElementById('subscriber-count').textContent = `Inscritos: ${subscriberCount}`;
+            const subscriberCount = parseInt(data.items[0].statistics.subscriberCount, 10);
+            startCounting(subscriberCount);
         } else {
             throw new Error('Canal não encontrado ou erro na API');
         }
@@ -23,33 +23,28 @@ async function fetchSubscriberCount() {
     }
 }
 
-// Chama a função ao carregar a página
-window.onload = fetchSubscriberCount;
+// Função para fazer a contagem progressiva até o número de inscritos
+function startCounting(target) {
+    const counter = document.querySelector('.counter');
+    let count = 0;
+    const speed = 10; // Velocidade do incremento (quanto menor, mais rápido)
 
-let index = 0;
-let direction = 1; // 1 para avançar, -1 para voltar
-const totalImages = document.querySelectorAll(".carousel img").length;
+    // Função para incrementar o contador
+    const updateCounter = () => {
+        if (count < target) {
+            count++;
+            counter.innerText = `Subscriber Count: ${count} subs🚀`; // Exibe a contagem enquanto sobe
+            setTimeout(updateCounter, speed);
+        } else {
+            counter.innerText = `Subscriber Count: ${target} subs🚀`; // Exibe o número final
+        }
+    };
 
-function showNextImage() {
-    const carousel = document.querySelector(".carousel");
-    const dots = document.querySelectorAll(".dot");
-
-    // Alterna a direção ao chegar na última ou primeira imagem
-    if (index === totalImages - 1) {
-        direction = -1; // Começa a voltar
-    } else if (index === 0) {
-        direction = 1; // Começa a avançar
-    }
-
-    index += direction; // Atualiza o índice
-
-    const offset = index * 293.5; // Move na largura exata da imagem
-    carousel.style.transform = `translateX(-${offset}px)`; // Aplica o deslocamento suave
-
-    dots.forEach(dot => dot.classList.remove("active"));
-    dots[index].classList.add("active");
+    // Começa a contagem
+    updateCounter();
 }
 
-// Define um intervalo para avançar/retroceder automaticamente
-setInterval(showNextImage, 3000);
+// Chama a função de verificação de inscritos ao carregar a página
+window.onload = fetchSubscriberCount;
+
 
