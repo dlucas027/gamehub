@@ -72,12 +72,13 @@ h1 {
 
 .image-grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr); /* Cria 4 colunas */
-    gap: 10px;
+    grid-template-columns: repeat(6, 1fr); /* Cria 4 colunas */
+    gap: 20px;
     padding: 20px;
-    width: 40%;
+    width: 40%; /* Ajuste esse valor para alterar o tamanho total do grid */
     height: 100%;
     box-sizing: border-box;
+    margin: 0 auto; /* Centraliza o grid horizontalmente */
 }
 
 .image-item {
