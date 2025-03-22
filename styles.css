@@ -104,7 +104,9 @@ h1 {
     font-weight: bold;
     color: #fff;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+    text-decoration: none;
 }
+
 @media (max-width: 1024px) {  /* Tablets e telas médias */
     .image-grid {
         grid-template-columns: repeat(3, 1fr); /* 3 colunas */
@@ -137,7 +139,7 @@ h1 {
     }
 }
 .dark-mode {
-    background: linear-gradient(135deg, #ff007f, #5701c2);
+    background: #013a63;
     color: white;
 }
 #toggle-theme {
