@@ -63,4 +63,26 @@ window.onload = function() {
     typeText();             // Chama a animação do título
 };
 
+/*bnt dark mode*/
+document.addEventListener("DOMContentLoaded", function () {
+    const toggleButton = document.createElement("button"); // Cria o botão
+    toggleButton.id = "toggle-theme"; // Define um ID para o botão
+
+    // Define o ícone de controle de videogame como padrão (tema claro)
+    toggleButton.innerHTML = "<i class='fas fa-gamepad'></i>"; 
+    document.body.prepend(toggleButton); // Adiciona o botão no início do corpo da página
+
+    toggleButton.addEventListener("click", function () {
+        document.body.classList.toggle("dark-mode"); // Alterna entre os temas
+
+        // Atualiza o ícone do botão de acordo com o tema
+        if (document.body.classList.contains("dark-mode")) {
+            toggleButton.innerHTML = "<i class='fas fa-gamepad'></i>"; // Joystick (para dark mode)
+        } else {
+            toggleButton.innerHTML = "<i class='fas fa-gamepad'></i>"; // Controle de videogame (para light mode)
+        }
+    });
+});
+
+
 

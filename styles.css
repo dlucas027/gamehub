@@ -1,0 +1,195 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Boldonse&family=Bungee&family=Markazi+Text:wght@400..700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Zen+Dots&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    background: #000000;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+header, #menu {
+    background-color: #000000;
+    margin: 0;
+    padding: 0;
+}
+#menu ul {
+    list-style: none;
+    padding: 0;
+    background-color: #000000;
+    margin: 0;
+}
+#menu ul li {
+    display: inline;
+}
+#menu ul li a {
+    color: #fff;
+    padding: 20px;
+    text-decoration: none;
+    display: inline-block;
+}
+#menu ul li a:hover {
+    background-color: #ff0000;
+    padding: 20px;
+    text-decoration: none;
+    display: inline-block;
+}
+h1 {
+    font-family: "Bungee", sans-serif;
+    font-style: normal;
+    font-size: 50px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    padding: 0;
+}
+.counter {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 15px;
+    padding: 15px;
+    background-color: rgba(255, 0, 0, 0.664);
+    border-radius: 50px;
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+.fundo-playlists {
+    margin-top: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 10px 0;
+    color: #fff;
+    margin-top: 20px;
+}
+.playlists {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 18px;
+    text-align: justify;
+    padding: 0 15px;
+}
+.playlists p {
+    line-height: 1.4;
+    margin-bottom: 10px;
+}
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 20px; /* Mantido o tamanho original */
+    padding: 20px; /* Mantido o tamanho original */
+    width: 70%; /* Mantido como antes */
+    margin: 0 auto;
+}
+.image-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+.image-item img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+.image-item:hover img {
+    transform: scale(1.05);
+}
+.game-title {
+    margin-top: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+}
+
+/* Tablets e telas médias */
+@media (max-width: 1024px) {
+    .image-grid {
+        grid-template-columns: repeat(3, 1fr); /* 3 colunas */
+        width: 80%;
+        gap: 16px;
+    }
+
+    .game-title {
+        font-size: 15px;
+    }
+}
+
+/* Celulares e telas pequenas */
+@media (max-width: 768px) {
+    .image-grid {
+        grid-template-columns: repeat(2, 1fr); /* 2 colunas x 3 linhas */
+        width: 70%;
+        gap: 12px;
+        padding: 10px;
+    }
+
+    .game-title {
+        font-size: 14px;
+    }
+}
+
+/* Telas muito pequenas (tipo celular antigo em pé) */
+@media (max-width: 480px) {
+    .image-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 8px;
+        padding: 8px;
+    }
+
+    .game-title {
+        font-size: 13px;
+    }
+}
+
+
+/* Estilos para o modo escuro */
+.dark-mode {
+    background: linear-gradient(135deg, #ff007f, #5701c2);
+    color: white;
+}
+
+#toggle-theme {
+    position: fixed; /* O botão agora vai se mover com o scroll da página */
+    bottom: 10px; /* Colocar o botão perto do rodapé */
+    left: 50%; /* Centralizar horizontalmente */
+    transform: translateX(-50%); /* Ajuste para centralização exata */
+    padding: 0;
+    border: none;
+    background: none;
+    color: white;
+    font-size: 40px;
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.5;
+}
+
+#toggle-theme:hover {
+    opacity: 1; /* Aumenta a opacidade ao passar o mouse */
+}
+
+/* No estado ativo */
+#toggle-theme:active {
+    opacity: 0.7; /* Reduz a opacidade quando clicado */
+}
+
+/* Para telas muito pequenas */
+@media (max-width: 480px) {
+    #toggle-theme {
+        bottom: 10px; /* Menor distância do rodapé em telas pequenas */
+        width: 35px; /* Tamanho um pouco menor */
+        height: 35px; /* Tamanho um pouco menor */
+        font-size: 30px; /* Ajuste no tamanho do ícone */
+    }
+}
