@@ -32,19 +32,20 @@ function startCounting(target) {
     const updateCounter = () => {
         if (count < target) {
             count++;
-            counter.innerText = `Subscriber Count: ${count} subs🚀`; // Exibe a contagem enquanto sobe
+            counter.innerHTML = `Subscriber Count: ${count} <i class="bi bi-rocket-takeoff"></i>`; // Exibe a contagem com o ícone
             setTimeout(updateCounter, speed);
         } else {
-            counter.innerText = `Subscriber Count: ${target} subs🚀`; // Exibe o número final
+            counter.innerHTML = `Subscriber Count: ${target} subs <i class="bi bi-rocket-takeoff"></i>`; // Exibe o número final com o ícone
         }
     };
+    
 
     // Começa a contagem
     updateCounter();
 }
 
 var h1 = document.querySelector("h1");
-var text = "Welcome Dlucas YT"; // Texto a ser animado
+var text = "Welcome, Gamer! DLucas YT is Your Next Stop"; // Texto a ser animado
 var index = 0;
 
 // Função para animar o texto
@@ -61,3 +62,5 @@ window.onload = function() {
     fetchSubscriberCount(); // Chama o contador de inscritos
     typeText();             // Chama a animação do título
 };
+
+

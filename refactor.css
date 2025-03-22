@@ -1,36 +1,36 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Boldonse&family=Bungee&family=Markazi+Text:wght@400..700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Zen+Dots&display=swap');
+
 body {
     font-family: Arial, sans-serif;
     background: linear-gradient(135deg, #ff007f, #5701c2);
     color: white;
     text-align: center;
-    margin: 0; /* Remover qualquer margem padrão do body */
-    padding: 0; /* Remover qualquer padding padrão do body */
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 100vh;
 }
-
 header, #menu {
     background-color: #000000;
-    margin: 0; /* Garantir que não haja margem aplicada */
-    padding: 0; /* Remover padding do menu */
+    margin: 0;
+    padding: 0;
 }
-
 #menu ul {
     list-style: none;
     padding: 0;
     background-color: #000000;
-    margin: 0; /* Remover margens para evitar deslocamento */
+    margin: 0;
 }
-
 #menu ul li {
     display: inline;
 }
-
 #menu ul li a {
     color: #fff;
     padding: 20px;
     text-decoration: none;
     display: inline-block;
 }
-
 #menu ul li a:hover {
     background-color: #ff0000;
     padding: 20px;
@@ -38,77 +38,72 @@ header, #menu {
     display: inline-block;
 }
 h1 {
-    font-size: 3em;
-    margin: 0;
-    padding: 0;
-    /* Estiliza o título principal, aumentando o tamanho da fonte e removendo margens e preenchimentos */
-}
-
-.counter {
-    font-size: 25px;
-    font-weight: bold;
+    font-family: "Bungee", sans-serif;
+    font-style: normal;
+    font-size: 50px;
     margin-top: 20px;
-    padding: 15px;
+    margin-bottom: 15px;
+    padding: 0;
+    borde
+}
+.counter {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 15px;
+    padding: 10px;
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 50px;
-    width: auto;
-    max-width: 400px;
+    max-width: 300px;
     margin-left: auto;
     margin-right: auto;
 }
-
-
-
-.description {
-    font-size: 1.2em;
+.fundo-playlists {
+    margin-top: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 10px 0;
+    color: #fff;
     margin-top: 20px;
-    max-width: 500px;
-    text-align: center;  /* Centraliza o texto dentro do elemento */
-    margin: 0 auto;  /* Centraliza o elemento com margens automáticas */
-    padding: 0;
-    /* Estiliza a descrição do canal, aumentando o tamanho da fonte e limitando a largura */
 }
-
-
+.playlists {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 1.1rem;
+    text-align: justify;
+    padding: 0 15px;
+}
+.playlists p {
+    line-height: 1.4;
+    margin-bottom: 10px;
+}
 .image-grid {
     display: grid;
-    grid-template-columns: repeat(6, 1fr); /* Cria 4 colunas */
-    gap: 20px;
-    padding: 20px;
-    width: 40%; /* Ajuste esse valor para alterar o tamanho total do grid */
-    height: 100%;
-    box-sizing: border-box;
-    margin: 0 auto; /* Centraliza o grid horizontalmente */
+    grid-template-columns: repeat(6, 1fr);
+    gap: 20px; /* Mantido o tamanho original */
+    padding: 20px; /* Mantido o tamanho original */
+    width: 70%; /* Mantido como antes */
+    margin: 0 auto;
 }
-
 .image-item {
-    position: relative;
-    overflow: hidden;
-    width: 100%; /* Aqui você pode ajustar a largura do contêiner da imagem */
-    height: 0;
-    padding-top: 150%; /* Proporção 2:3 (altura / largura = 3 / 2) - Aqui está a proporção que você quer manter */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
     transition: transform 0.3s ease-in-out;
 }
-
 .image-item img {
-    position: absolute;
-    top: 0;
-    left: 0;
     width: 100%;
-    height: 100%;
+    height: auto;
     object-fit: cover;
-    object-position: top;
+    border-radius: 10px;
     transition: transform 0.3s ease-in-out;
 }
-
-/* Aqui é onde você pode ajustar a expansão da imagem ao passar o mouse */
-.image-item:hover {
-    transform: scale(1.1); /* Aumenta 10% o tamanho da imagem ao passar o mouse - Você pode aumentar o valor para expandir mais */
-}
-
 .image-item:hover img {
-    transform: scale(1.1); /* A imagem também aumenta ao passar o mouse - Aumente o valor de 'scale' para aumentar mais */
+    transform: scale(1.05);
 }
-
-/* Se você quiser reduzir o tamanho das imagens no contêiner, pode ajustar o 'width' ou 'scale' do contêiner */
-
+.game-title {
+    margin-top: 8px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+}
