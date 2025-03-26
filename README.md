@@ -1,7 +1,7 @@
 # Landing Page - Meu Canal no YouTube 🎥🌐
 
 Este projeto tem como objetivo a criação de uma landing page (página de captura) para divulgar e promover meu canal no YouTube. A página foi desenvolvida com HTML e CSS, servindo como uma forma de consolidar e aplicar os conhecimentos que estou adquirindo nessas tecnologias.
-
+https://dlucas027.github.io/gamehub/
 ---
 
 ## 🚀 Tecnologias Utilizadas
