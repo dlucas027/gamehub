@@ -51,8 +51,8 @@ A different theme similar to dark mode, but with a blue-tone design.
 ### Mobile Responsiveness  
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/c0df1f30-94d7-407b-88ec-7be332bfca0c" width="30%">
-  <img src="https://github.com/user-attachments/assets/a1f2318f-e956-4651-a9e8-a5912254c3a2" width="30%">
+  <img src="https://github.com/user-attachments/assets/27ef742d-27ff-4ed4-8c2b-71c8069412b0" width="30%">
+  <img src="https://github.com/user-attachments/assets/1e9c876f-622a-4f08-aa18-e45cc7d01cde" width="30%">
 </p>  
 
 ---
