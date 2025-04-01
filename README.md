@@ -42,7 +42,7 @@ A different theme similar to dark mode, but with a blue-tone design.
 
 ---
 
-### 🎨 Original Theme  
+### Original Theme  
 
 ![original](https://github.com/user-attachments/assets/4b82c6f7-08b3-452d-b748-15661470b441)  
 
@@ -51,8 +51,8 @@ A different theme similar to dark mode, but with a blue-tone design.
 ### Mobile Responsiveness  
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/c0df1f30-94d7-407b-88ec-7be332bfca0c" width="45%">
-  <img src="https://github.com/user-attachments/assets/a1f2318f-e956-4651-a9e8-a5912254c3a2" width="45%">
+  <img src="https://github.com/user-attachments/assets/c0df1f30-94d7-407b-88ec-7be332bfca0c" width="40%">
+  <img src="https://github.com/user-attachments/assets/a1f2318f-e956-4651-a9e8-a5912254c3a2" width="40%">
 </p>  
 
 ---
@@ -60,8 +60,8 @@ A different theme similar to dark mode, but with a blue-tone design.
 ### Blue Theme  
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/46b6afca-ebed-4799-a2db-26ce821ba646" width="45%">
-  <img src="https://github.com/user-attachments/assets/d412cd52-5394-4076-bab3-5f8707505c99" width="45%">
+  <img src="https://github.com/user-attachments/assets/46b6afca-ebed-4799-a2db-26ce821ba646" width="40%">
+  <img src="https://github.com/user-attachments/assets/d412cd52-5394-4076-bab3-5f8707505c99" width="40%">
 </p>  
 
 
