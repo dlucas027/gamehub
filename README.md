@@ -61,6 +61,6 @@ A different theme similar to dark mode, but with a blue-tone design.
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/e81f5f8b-0029-4215-a99c-f0177e62cfb8" width="30%">
-  <img src="https://github.com/user-attachments/assets/d412cd52-5394-4076-bab3-5f8707505c99" width="30%">
+  <img src="https://github.com/user-attachments/assets/8f839e91-dd40-4fe9-aa6d-c72788c0a6a8" width="30%">
 </p>  
 
