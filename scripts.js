@@ -1,6 +1,6 @@
 async function fetchSubscriberCount() {
     const channelId = 'UCfTXtop2YQ3yF6UJmlxP-RQ';  // Channel ID (ID do canal)
-    const apiKey = 'AIzaSyCwib6x3P0MHvQPt7MkVRUOpE3e-W3lAgw'; // API Key (Chave da API)
+    const apiKey = '#'; // API Key (Chave da API)
     const url = `https://www.googleapis.com/youtube/v3/channels?part=statistics&id=${channelId}&key=${apiKey}`;
 
     try {
