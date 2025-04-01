@@ -38,5 +38,9 @@ A different theme similar to dark mode, but with a blue-tone design.
 
 ![blue-mode](https://github.com/user-attachments/assets/6a907a38-357a-4782-83fe-d5cedb5f5ad9)  
 
+### Tema Original
+
+![original](https://github.com/user-attachments/assets/4b82c6f7-08b3-452d-b748-15661470b441)
+
 
 
