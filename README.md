@@ -19,4 +19,14 @@ After refactoring, I made it fully responsive across different screen sizes, inc
 I used the **YouTube API** to pull real-time subscriber data. For security reasons, I haven’t shared my API key, but you can request your own from [Google Developers](https://console.cloud.google.com/apis/dashboard) to access Google and YouTube APIs.  
 
 The project was built with **HTML** and **CSS**, while **JavaScript** handles effects and interactions. For responsiveness, I used **media queries** to ensure a smooth experience across all screen sizes.  
- 
+
+---
+
+## Features
+
+1) Menu horizontal funcional, com as redes sociais
+2) Título animado em formato máquina de escrever, a animação se repete após 4s
+3) Contador de inscritos consumindo a API do Youtube
+4) Cards com as Playlists, responsiveis caso o mouse passe em cima, ao clicar, elas levam para a playlist específica no canal
+5) Botão para troca de tema na página
+![features](https://github.com/user-attachments/assets/b09aa674-afa2-485a-aad8-0d63203da8d8)
