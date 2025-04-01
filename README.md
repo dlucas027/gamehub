@@ -22,11 +22,21 @@ The project was built with **HTML** and **CSS**, while **JavaScript** handles ef
 
 ---
 
-## Features
+## 🚀 Features  
 
-1) Menu horizontal funcional, com as redes sociais
-2) Título animado em formato máquina de escrever, a animação se repete após 4s
-3) Contador de inscritos consumindo a API do Youtube
-4) Cards com as Playlists, responsiveis caso o mouse passe em cima, ao clicar, elas levam para a playlist específica no canal
-5) Botão para troca de tema na página
-![features](https://github.com/user-attachments/assets/b09aa674-afa2-485a-aad8-0d63203da8d8)
+1) Fully functional horizontal menu with social media links  
+2) Animated title with a typewriter effect, looping every 4 seconds  
+3) Live subscriber counter using the YouTube API  
+4) Interactive playlist cards that respond to hover and redirect to the specific playlist when clicked  
+5) Theme switch button for changing the page’s appearance  
+
+![features](https://github.com/user-attachments/assets/b09aa674-afa2-485a-aad8-0d63203da8d8)  
+
+### Alternative Theme  
+
+A different theme similar to dark mode, but with a blue-tone design.  
+
+![blue-mode](https://github.com/user-attachments/assets/6a907a38-357a-4782-83fe-d5cedb5f5ad9)  
+
+
+
