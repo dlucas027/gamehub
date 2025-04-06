@@ -4,6 +4,7 @@ GameHub was my first personal project, and it has a special place for me—not j
 
 One of the biggest limitations on YouTube is that you can't customize playlist covers. With this project, I not only have full control over the visuals but also how they respond to user interactions—adjusting the layout, colors, and overall experience. This adds a unique touch and makes everything feel more dynamic.  
 
+
 ---
 
 ## Evolution  
