@@ -68,5 +68,4 @@ A different theme similar to dark mode, but with a blue-tone design.
 ---
 ---
 
-[🌐gameHub](https://dlucas027.github.io/gamehub/)
-## Matheus de Lucas Arouca [LinkedIn](https://www.linkedin.com/in/delucas027)
+## Matheus de Lucas Arouca | [LinkedIn](https://www.linkedin.com/in/delucas027) | [🌐gameHub](https://dlucas027.github.io/gamehub/)
